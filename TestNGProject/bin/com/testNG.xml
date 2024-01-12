@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+         <!--  
+       <class name="com.testng.NewTest"/>
+      <class name="com.testng.FirstTestNGClass"/>
+      <class name="com.testng.SecondTestNGClass"/> 
+     
+       <class name="demopack.DemoTest"/>
+       <class name="demopack.Parameterisation"/>
+       <parameter name="uid" value="laxmi"></parameter>
+       <parameter name="pass" value="laxmi27"></parameter>
+       
+        <parameter name="u" value="1303"></parameter>
+       <parameter name="p" value="Guru99"></parameter>
+        -->
+        <class name="demopack.ParametrizationDropDown"/>
+       
+       <parameter name="skill" value="Java"></parameter>
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
